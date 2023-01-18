@@ -1,3 +1,14 @@
+body { 
+    background: whitesmoke;
+}
+
 p {
     text-align:center;
+    background:darkcyan;
+}
+
+
+
+em strong {
+    color: white;
 }
