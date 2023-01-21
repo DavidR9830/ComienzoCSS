@@ -1,6 +1,11 @@
 body { 
     background: whitesmoke;
 }
+
+#banner {
+width: 100%;
+}
+
 h1 {
     text-align: center;
     background: wheat;
@@ -17,4 +22,8 @@ em strong {
 
 #mission {
     font-size: 20px;
+}
+
+.items {
+   font-style:italic; 
 }
