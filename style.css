@@ -6,6 +6,10 @@ body {
 width: 100%;
 }
 
+.principal {
+    background:silver;
+    padding: 20px; /* Es el espaciamiento interno*/
+}
 h1 {
     text-align: center;
     background: wheat;
@@ -24,6 +28,25 @@ em strong {
     font-size: 20px;
 }
 
+.diferenciales {
+    background: white;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
 .items {
    font-style:italic; 
+}
+
+ul {
+    display: inline-block;  /* Para que la lista ocupe solo su linea y pertmita gestionar los demás espacios*/
+    vertical-align: top; /* ubicación del elemento*/
+    width: 20%;
+    margin-right: 10%;
+}
+.imagenDiferenciales {
+    width: 50%;
 }
