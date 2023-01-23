@@ -1,6 +1,6 @@
-body { 
-    background: whitesmoke;
-}
+.titulo-principal{
+    padding-left: 30px; /* Hacer un espacoio a la izquiera del elelemto*/
+} 
 
 #banner {
 width: 100%;
@@ -10,7 +10,7 @@ width: 100%;
     background:silver;
     padding: 20px; /* Es el espaciamiento interno*/
 }
-h1 {
+.titulo-cantralizado {
     text-align: center;
     background: wheat;
 }
@@ -33,9 +33,6 @@ em strong {
     padding: 30px;
 }
 
-h2 {
-    text-align: center;
-}
 
 .items {
    font-style:italic; 
