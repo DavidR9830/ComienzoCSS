@@ -1,49 +1,85 @@
-.titulo-principal{
-    padding-left: 30px; /* Hacer un espacoio a la izquiera del elelemto*/
-} 
-
-#banner {
-width: 100%;
+header {
+    background-color:  #BBBBBB;
+    padding: 20px 0; /*  parametros (inferior supererior, laterales) */
+}
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto; /* alinear un div al centro colocando a la derecha e izquierda el mismo valor de margen */
+}
+nav{
+ position: absolute;  /* posiociona el elemento en el punto de inicio de su elemento padre */
+ top: 110px;
+ right: 0px;
+}
+nav li {
+ display: inline; /* indicar que el elemento no ocupe el 100% de la página sino su tamaño y ya */
+ margin: 0 0 0 15px; /* margen (arriba, derecha, abajo, izquierda) */
 }
 
-.principal {
-    background:silver;
-    padding: 20px; /* Es el espaciamiento interno*/
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight:bold; /* para la negrita */
+    font-size: 22px;
+    text-decoration: none;
 }
-.titulo-cantralizado {
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+.productos{
+    width:940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.productos li {
+    display:inline-block; /* elementos en formato horizontal, uno al lado del otro y configurar propiededades internas de elemento */
     text-align: center;
-    background: wheat;
-}
-p {
-    text-align:center;
-    background:darkcyan;
-}
-
-
-em strong {
-    color: white;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; /*aumenta el tamaño del contenido */
+    box-sizing: border-box; /* los pixeles de espaciamiento interno del padding son contabilizados, solo dentro de la caja en ese 30% */
+    border: 2px solid black; /* orden que lleva (ancho, estilo, colot) */
+   border-radius: 10px;
 }
 
-#mission {
+.productos li:hover{ /* propiedad que se aplica cuando pasa el mause por encima */
+    border-color:#c78c19;
+   
+}
+
+.productos li:active{
+border-color: #088c19;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 { /* ind0icar que ese estilo se aplique especificamente a la etiqueta h2  */
+    font-size: 33px;
+}
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
     font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.diferenciales {
-    background: white;
-    padding: 30px;
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg); /* poner una imagen de fondo */
+    padding: 40px;
 }
 
-
-.items {
-   font-style:italic; 
-}
-
-ul {
-    display: inline-block;  /* Para que la lista ocupe solo su linea y pertmita gestionar los demás espacios*/
-    vertical-align: top; /* ubicación del elemento*/
-    width: 20%;
-    margin-right: 10%;
-}
-.imagenDiferenciales {
-    width: 50%;
+.copyright {
+    color:white;
+    font-size: 13px;
 }
